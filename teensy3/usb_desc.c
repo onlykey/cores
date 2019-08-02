@@ -1536,7 +1536,7 @@ const usb_descriptor_list_t usb_descriptor_list[] = {
 #ifdef MTP_INTERFACE
 	{0x0304, 0x0409, (const uint8_t *)&usb_string_mtp, 0},
 #endif
-        {0x0300, 0x0000, (const uint8_t *)&string0, 0},
+        {0x0300, 0x0409, (const uint8_t *)&string0, 0},
         {0x0301, 0x0409, (const uint8_t *)&usb_string_manufacturer_name, 0},
         {0x0302, 0x0409, (const uint8_t *)&usb_string_product_name, 0},
         {0x0303, 0x0409, (const uint8_t *)&usb_string_serial_number, 0},
