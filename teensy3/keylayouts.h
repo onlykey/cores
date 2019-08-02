@@ -826,7 +826,7 @@ extern "C"{
 #define ASCII_3D	KEY_0 + SHIFT_MASK			// 61 =
 #define ASCII_3E	KEY_TILDE + SHIFT_MASK			// 62 >
 #define ASCII_3F	KEY_MINUS + SHIFT_MASK			// 63 ?
-#define ASCII_40	KEY_Q + ALTGR_MASK			// 64 @
+#define ASCII_40	KEY_L + ALTGR_MASK			// 64 @
 #define ASCII_41	KEY_A + SHIFT_MASK			// 65 A
 #define ASCII_42	KEY_B + SHIFT_MASK			// 66 B
 #define ASCII_43	KEY_C + SHIFT_MASK			// 67 C
